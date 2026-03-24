@@ -6,37 +6,23 @@ A comprehensive guide to essential JavaScript concepts and patterns for React de
 
 ## 📚 Table of Contents
 
-### Core Concepts
-
-1. **[Variables: `const` and `let`](#1-variables-const-and-let)** – Variable declaration patterns
-2. **[Destructuring](#2-destructuring)** – Object and array destructuring
-3. **[Rest and Spread Operators](#3-rest-and-spread-operators)** – Expanding and collecting values
-4. **[Template Literals](#4-template-literals)** – String interpolation and formatting
-5. **[Ternary Operators](#5-ternary-operators-vs-ifelse)** – Concise conditional expressions
-6. **[Arrow Functions](#6-arrow-functions)** – Modern function syntax
-
-### Operators & Logic
-
-7. **[Short-Circuiting and Logical Operators](#7-short-circuiting-and-logical-operators)** – `&&`, `||`, and `??`
-8. **[Optional Chaining](#8-optional-chaining)** – Safe property access with `?.`
-
-### Array Methods
-
-9. **[Map Method](#9-map-method)** – Transform array elements
-10. **[Filter Method](#10-filter-method)** – Select array elements
-11. **[Reduce Method](#11-reduce-method)** – Aggregate array values
-12. **[Sort Method](#12-array-sort-method)** – Order array elements
-
-### Data Handling
-
-13. **[Working with Immutable Arrays](#13-working-with-immutable-arrays)** – React-safe array operations
-
-### Asynchronous Programming
-
-14. **[Promises](#14-asynchronous-promises)** – Promise-based async operations
-15. **[Async/Await](#15-asynchronous-asyncawait)** – Modern async syntax
-
----
+| #   | Topic             | File                                                                                                                                   |
+| --- | ----------------- | -------------------------------------------------------------------------------------------------------------------------------------- |
+| 1   | Variables         | [let-&-const.md](./01%20Variables/let-&-const.md)                                                                                      |
+| 2   | Destructuring     | [destructuring-object-&-array.md](./02%20Destructuring/destructuring-object-&-array.md)                                                |
+| 3   | Rest & Spread     | [rest-&-spread-operator.md](./03%20Rest%20and%20Spread/rest-&-spread-operator.md)                                                      |
+| 4   | Template Literals | [template-literals.md](./04%20Template%20Literals/template-literals.md)                                                                |
+| 5   | Ternaries         | [ternaries.md](./05%20Ternaries%20vs%20If%20Else/ternaries.md)                                                                         |
+| 6   | Arrow Functions   | [arrow-functions.md](./06%20Arrow%20Functions/arrow-functions.md)                                                                      |
+| 7   | Logical Operators | [short-circuiting-&-logical-operators.md](./07%20Short-Circuiting%20and%20Logical%20Operators/short-circuiting-&-logical-operators.md) |
+| 8   | Optional Chaining | [optionial-chaining.md](./08%20Optional%20Chaining/optionial-chaining.md)                                                              |
+| 9   | Map Method        | [map-method.md](./09%20Map%20Method/map-method.md)                                                                                     |
+| 10  | Filter Method     | [filter-method.md](./10%20Filter%20Method/filter-method.md)                                                                            |
+| 11  | Reduce Method     | [reduce-method.md](./11%20Reduce%20Method/reduce-method.md)                                                                            |
+| 12  | Sort Method       | [array-sort-method.md](./12%20Array%20Sort%20Method/array-sort-method.md)                                                              |
+| 13  | Immutable Arrays  | [immutable-arrays.md](./13%20Working%20with%20Immutable%20Arrays/immutable-arrays.md)                                                  |
+| 14  | Promises          | [asynchronous-promises.md](./14%20Asynchronous%20Promises/asynchronous-promises.md)                                                    |
+| 15  | Async/Await       | [asynchronous-async-and-await.md](./15%20Asynchronous%20Async%20and%20Await/asynchronous-async-and-await.md)                           |
 
 ## 🎯 Quick Reference
 
