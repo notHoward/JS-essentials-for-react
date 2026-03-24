@@ -28,19 +28,31 @@ A comprehensive guide to essential JavaScript concepts and patterns for React de
 
 ### Essential Patterns for React
 
-| Concept       | Pattern                          | Use Case                         |
-| ------------- | -------------------------------- | -------------------------------- |
-| Variables     | `const` first, `let` if needed   | Always follow this pattern       |
-| Destructuring | `const { x, y } = obj`           | Simplify variable extraction     |
-| Spread        | `[...arr, item]`                 | Immutable array operations       |
-| Templates     | `` `Hello ${name}` ``            | String interpolation             |
-| Ternary       | `condition ? true : false`       | Simple conditionals in JSX       |
-| Arrow         | `() => JSX`                      | React components & handlers      |
-| Map           | `arr.map(item => ...)`           | Render lists in React            |
-| Filter        | `arr.filter(item => ...)`        | Conditional rendering            |
-| Reduce        | `arr.reduce((acc, curr) => ...)` | Calculate totals, aggregate data |
-| Optional      | `obj?.prop?.nested`              | Safe nested access               |
-| Async         | `async () => { await ... }`      | Handle API calls                 |
+
+| Concept          | Pattern                                            | Use Case                     |
+| ---------------- | -------------------------------------------------- | ---------------------------- |
+| Variables        | `const` first, `let` if needed                     | Always follow this pattern   |
+| Destructuring    | `const { x, y } = obj`                             | Simplify variable extraction |
+| Spread           | `[...arr, item]`                                   | Immutable array operations   |
+| Rest Params      | `const [first, ...rest] = arr`                     | Collect remaining values     |
+| Templates        | `` `Hello ${name}` ``                              | String interpolation         |
+| Ternary          | `condition ? true : false`                         | Simple conditionals in JSX   |
+| AND Logic        | `condition && <Component />`                       | Conditional rendering        |
+| OR Logic         | `value \|\| "default"`                             | Default values               |
+| Nullish          | `value ?? "default"`                               | Null/undefined defaults      |
+| Optional         | `obj?.prop?.nested`                                | Safe nested access           |
+| Safe Call        | `func?.()`                                         | Safe function execution      |
+| Arrow Fn         | `() => JSX`                                        | React components & handlers  |
+| Map              | `arr.map(item => ...)`                             | Render lists in React        |
+| Filter           | `arr.filter(item => ...)`                          | Select array items           |
+| Reduce           | `arr.reduce((acc, curr) => ...)`                   | Aggregate data & totals      |
+| Sort             | `arr.sort((a, b) => a - b)`                        | Order array elements         |
+| Immutable Add    | `[...arr, newItem]`                                | Add without mutation         |
+| Immutable Remove | `arr.filter(x => x !== item)`                      | Remove without mutation      |
+| Immutable Update | `arr.map(x => x.id === 2 ? {...x, prop: val} : x)` | Update without mutation      |
+| Promise          | `.then().catch()`                                  | Handle async operations      |
+| Async/Await      | `async () => { await fn() }`                       | Modern async handling        |
+| Try/Catch        | `try { } catch (error) { }`                        | Error handling in async      |
 
 ---
 
